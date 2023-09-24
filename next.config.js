@@ -6,11 +6,20 @@
 
 // module.exports = nextConfig
 
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+//   images: {
+//     domains: ['localhost'],
+//   },
+// };
+
+// module.exports = nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost'],
+    domains: [process.env.NODE_ENV === 'production' ? 'nudge-narrative-blog.vercel.app' : 'localhost'],
   },
 };
 
