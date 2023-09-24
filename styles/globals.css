@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -13,4 +16,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+
+
+.alert {
+  font-weight: bold;
+  padding: 0.5em;
+  background-color: orange;
+  color: white;
+}
+
+:target::before {
+  content: '';
+  display: block;
+  height: 244px;
+  margin-top: -244px;
+  visibility: hidden;
+}
+
+
+@media (max-width: 890px) {
+  .col-span-3 {
+    display: none;
+  }
 }

@@ -114,3 +114,10 @@
     flex-direction: column;
   }
 }
+
+
+@media (max-width: 890px) {
+  .col-span-3 {
+    display: none;
+  }
+}
