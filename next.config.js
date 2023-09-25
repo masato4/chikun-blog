@@ -19,7 +19,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [process.env.NODE_ENV === 'production' ? 'nudge-narrative-blog.vercel.app' : 'localhost'],
+    domains: [process.env.NEXT_PUBLIC_BASE_URL],
   },
 };
 
