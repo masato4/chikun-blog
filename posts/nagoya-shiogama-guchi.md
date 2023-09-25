@@ -22,7 +22,7 @@ categories: ['名古屋', 鶴舞線]
 鶏白湯ラーメン、豚白湯ラーメンの2種類のメニューから選べます。
 店長曰く、鶏白湯はスープまで飲み干したい、豚白湯は、ご飯と一緒にいきたくなる味のようです！！
 どちらも本当に絶品です！！
-![kiraku](http://localhost:3000/nagoya-shiogama-guchi-kiraku.png)
+![kiraku](process.env.NEXT_PUBLIC_BASE_URL/nagoya-shiogama-guchi-kiraku.png)
 
 ### キッチンこまったくん
 650円で美味しいランチが食べられるお店です！
@@ -35,7 +35,7 @@ categories: ['名古屋', 鶴舞線]
 ### Sonnen Spiele(ボードゲームカフェ)
 たくさんのボードゲームがありました。ボードゲーム好きにはとてもおすすめです。
 イベントを実施している日があり、楽しむことができます。
-![kiraku](http://localhost:3000/nagoya-shiogama-guchi-SonnenSpiele.png)
+![SonnenSpiele](process.env.NEXT_PUBLIC_BASE_URL/nagoya-shiogama-guchi-SonnenSpiele.png)
 
 ## あとがき
 立ち寄る機会があれば今回紹介したお店にぜひ行ってみてください！
