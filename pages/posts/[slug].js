@@ -15,6 +15,9 @@ import rehypeParse from 'rehype-parse';
 import rehypeReact from 'rehype-react';
 import Link from 'next/link';
 import { toc } from 'mdast-util-toc';
+import gfm from 'remark-gfm';
+
+
 
 export async function getStaticProps({ params }) {
   const file = fs.readFileSync(`posts/${params.slug}.md`, 'utf-8');
@@ -30,6 +33,7 @@ export async function getStaticProps({ params }) {
 
   const result = await unified()
     .use(remarkParse)
+    .use(gfm)
     .use(remarkPrism, {
       plugins: ['line-numbers'],
     })

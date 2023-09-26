@@ -3,7 +3,7 @@ title: '(名古屋)鶴舞線_塩釜口駅グルメ・観光'
 date: '2023-09-24'
 description: '塩釜口駅周辺のグルメ・観光情報をご紹介します'
 image: nagoya-shiogama-guchi.png
-categories: ['名古屋', 鶴舞線]
+categories: ['おすすめスポット', '名古屋', '鶴舞線']
 ---
 ## 目次
 ## 塩釜口駅について

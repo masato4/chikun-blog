@@ -1,7 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import PostCard from '../../components/PostCard';
-import categories from '../../components/Categories';
+import { categoriesData } from '../../components/Categories';
 
 export const getStaticProps = ({ params }) => {
   const files = fs.readdirSync('posts');
@@ -33,7 +33,7 @@ export const getStaticProps = ({ params }) => {
 };
 
 export const getStaticPaths = () => {
-  // const categories = ['react', 'laravel', 'php' , 'rails','名古屋', '鶴舞線'];
+  const categories = categoriesData;
   const paths = categories.map((category) => ({ params: { category } }));
 
   return {
