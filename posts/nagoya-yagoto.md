@@ -2,7 +2,7 @@
 title: '(名古屋)鶴舞線_八事駅グルメ・観光'
 date: '2023-09-26'
 description: '八事駅周辺のグルメ・スポッtをご紹介します'
-image: nagoya-shiogama-yagoto.png
+image: nagoya-yagoto.png
 categories: ['おすすめスポット', '名古屋', '鶴舞線', '名城線']
 ---
 ## 目次
