@@ -2,7 +2,7 @@
 title: 'macOS14 Sonoma レビュー'
 date: '2023-09-27'
 description: 'macOS14 Sonomaでチェックしたい機能をご紹介します。'
-image: item-apple-sonoma.png
+image: item-apple-Sonoma.png
 categories: ['商品レビュー', 'Apple']
 ---
 ## 目次
