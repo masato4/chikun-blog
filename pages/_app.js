@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import * as gtag from '../lib/gtag';
 import { GA_TRACKING_ID } from '../lib/gtag'; // トラッキング ID を追加
-
+import Head from 'next/head'
 import Script from "next/script";
 
 
@@ -35,6 +35,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <Layout>
         <DefaultSeo {...SEO} />
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <link rel='apple-touch-icon' href='/favicon.png' />
+        </Head>
         <Component {...pageProps} />
       </Layout>
       <Script
