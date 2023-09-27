@@ -6,7 +6,7 @@ const categories = [
     name: '商品レビュー',
     subcategories: [
       {
-        name: 'Apple製品',
+        name: 'Apple',
         subcategories: [
           { name: 'Mac book Air' },
           { name: 'ipad' },

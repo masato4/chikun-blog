@@ -1,10 +1,10 @@
 export default {
-  title: 'Next.js Blog',
+  title: 'なじなれブログ',
   description: 'Next.jsなどの技術情報を発信するブログです。',
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    url: 'https://localhost:3000/',
+    url: '${process.env.NEXT_PUBLIC_BASE_URL}',
     site_name: 'BLOG',
   },
   twitter: {

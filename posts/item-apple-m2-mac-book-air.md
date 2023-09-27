@@ -3,7 +3,7 @@ title: 'M2 Mac Book Air レビュー'
 date: '2023-09-27'
 description: 'M2 Mac Book Airの使用感や購入する際の注意点をご紹介します'
 image: item-apple-m2-mac-book-air.png
-categories: ['商品紹介', 'Apple']
+categories: ['商品レビュー', 'Apple']
 ---
 ## 目次
 ## M2 Mac Book Air　のメリット・デメリット
@@ -63,9 +63,11 @@ Macを買って作業する人の想定される用途的にもここは譲ら�
 
 ## あとがき
 私のM2 Mac Book Air　の　おすすめスペックは
+
 | 画面サイズ | CPU | GPU | メモリ | ストレージ |
 | --- | --- | --- | ---- | ---------- |
 | 13インチ | 8コア |10コア | 16GB | 512GB |
+
 です！！参考にしていただけたら嬉しいです
 
 [記事一覧](/)
