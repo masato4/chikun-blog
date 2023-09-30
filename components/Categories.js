@@ -3,6 +3,32 @@
 
 const categories = [
   {
+    name: '日常ほのぼの',
+    subcategories: [
+      {
+        name: '一人暮らし',
+        subcategories: [
+          { name: '学生生活' },
+          { name: '新卒社会人' },
+          // 他のフロントエンドのサブカテゴリを追加
+        ]
+      },
+    ]
+  },
+  {
+    name: '技術系ブログ',
+    subcategories: [
+      {
+        name: 'その他(技術系)',
+        subcategories: [
+          { name: 'macOS' },
+          // 他のフロントエンドのサブカテゴリを追加
+        ]
+      },
+      // 他の技術のサブカテゴリを追加
+    ]
+  },
+  {
     name: '商品レビュー',
     subcategories: [
       {

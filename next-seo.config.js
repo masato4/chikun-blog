@@ -1,6 +1,6 @@
 export default {
   title: 'なじなれブログ',
-  description: 'Next.jsなどの技術情報を発信するブログです。',
+  description: '地方グルメ・スポットの紹介や、商品レビューを行います',
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
