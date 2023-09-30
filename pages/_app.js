@@ -38,6 +38,7 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <link rel='apple-touch-icon' href='/favicon.png' />
+          <meta name="google-site-verification" content="P7cCpcGD_ghZcKFb_glB5CKNhJEp9TfENSAPtqy4Y-o" />
         </Head>
         <Component {...pageProps} />
       </Layout>
