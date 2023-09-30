@@ -20,13 +20,16 @@ Windowsではできるのになぜかmacできなかったんですよね！！�
 アップデート後、早速googleドライブをドックに追加します
 
 ![access-right](/tech-others-macos-sonoma-access-right.png)
-...
+フォルダ”アプリケーション”にファイル”.app”を保存するためのアクセス権がありません。  
+アクセス権を表示または変更するには、FInderで項目を選択し。”ファイル”>”情報”をみると選択してください。  
+...  
 指示通り
 
 
 Finder > ファイル　> 情報を見る　からアクセス権の追加を行います...
 
 ![access-right-nothing](/tech-others-macos-sonoma-access-right-nothing.png)
+必要なアクセス権がないため。操作は完了できません。  
 ...(T ^ T)...
 めっちゃ楽しみにしていたのにできません
 Sonomaのエラーかと思い、Twitterを徘徊しまいたが、同様の症状がいる人がいません。
