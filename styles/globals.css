@@ -41,4 +41,43 @@ a {
   .col-span-3 {
     display: none;
   }
+  .grid.cols-12 {
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+  }
+
+  .col-span-9 {
+    /* padding-right: 10px; */
+    margin: 0 10px;
+    /* 右側に10pxのパディングを追加 */
+    grid-column: span 12;
+    /* スマートフォン画面では1列にする */
+  }
+  .prose.prose-lg {
+    margin: 0 10px;
+    /* 両端に10pxの余白を追加 */
+  }
+}
+
+
+
+@media (max-width: 640px) {
+
+
+
+  .sticky {
+    position: relative;
+    /* スマートフォンの場合はstickyを解除する */
+  }
+  .grid.grid-cols-3 {
+    grid-template-columns: 1fr;
+    /* スマートフォンの場合は1列にする */
+  }
+
+  
+}
+
+.grid.grid-cols-1>* {
+  margin: 0 10px;
+  /* 左右に10pxの余白を追加 */
 }
