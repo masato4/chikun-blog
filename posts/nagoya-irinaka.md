@@ -1,5 +1,5 @@
 ---
-title: '(名古屋)鶴舞線_いりなかグルメ・観光'
+title: '(名古屋)鶴舞線 いりなかグルメ・観光'
 date: '2023-09-29'
 description: 'いりなか駅周辺のグルメ・スポットをご紹介します'
 image: nagoya-irinaka.png

@@ -1,5 +1,5 @@
 ---
-title: '(名古屋)鶴舞線_八事駅グルメ・観光'
+title: '(名古屋)鶴舞線 八事駅グルメ・観光'
 date: '2023-09-26'
 description: '八事駅周辺のグルメ・スポットをご紹介します'
 image: nagoya-yagoto.png

@@ -34,7 +34,7 @@ const categories = [
       {
         name: 'Apple',
         subcategories: [
-          { name: 'Mac book Air' },
+          { name: 'Mac' },
           { name: 'ipad' },
           // 他のフロントエンドのサブカテゴリを追加
         ]

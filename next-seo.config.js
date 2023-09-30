@@ -1,5 +1,5 @@
 export default {
-  title: 'なじなれブログ',
+  title: 'なっじブログ',
   description: '日常生活をほのぼの綴る傍ら、地方グルメ・スポットの紹介や、商品レビューを行います',
   openGraph: {
     type: 'website',

@@ -62,22 +62,11 @@ a {
 
 
 @media (max-width: 640px) {
-
-
-
-  .sticky {
-    position: relative;
-    /* スマートフォンの場合はstickyを解除する */
+  .grid.grid-cols-1>* {
+      margin: 0 10px;
+      /* 左右に10pxの余白を追加 */
   }
-  .grid.grid-cols-3 {
-    grid-template-columns: 1fr;
-    /* スマートフォンの場合は1列にする */
+  header{
+    padding: 0 10px;
   }
-
-  
-}
-
-.grid.grid-cols-1>* {
-  margin: 0 10px;
-  /* 左右に10pxの余白を追加 */
 }

@@ -3,7 +3,7 @@ title: 'M2 Mac Book Air レビュー'
 date: '2023-09-27'
 description: 'M2 Mac Book Airの使用感や購入する際の注意点をご紹介します'
 image: item-apple-m2-mac-book-air.png
-categories: ['商品レビュー', 'Apple']
+categories: ['商品レビュー', 'Apple', 'Mac']
 ---
 ## 目次
 ## M2 Mac Book Air　のメリット・デメリット
