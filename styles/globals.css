@@ -37,10 +37,17 @@ a {
 }
 
 
-@media (max-width: 890px) {
+@media (max-width: 910px) {
   .col-span-3 {
     display: none;
   }
+
+  .grid.grid-cols-2>* {
+    margin: 0 10px;
+    /* 左右に10pxの余白を追加 */
+  }
+
+
   .grid.cols-12 {
     grid-template-columns: 1fr;
     margin: 0 10px;
@@ -57,16 +64,18 @@ a {
     margin: 0 10px;
     /* 両端に10pxの余白を追加 */
   }
+  header {
+    padding: 0 10px;
+  }
+
+
+
 }
 
 
 
 @media (max-width: 640px) {
   .grid.grid-cols-1>* {
-      margin: 0 10px;
-      /* 左右に10pxの余白を追加 */
-  }
-  header{
-    padding: 0 10px;
+    margin: 0 10px;
   }
 }
