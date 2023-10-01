@@ -3,15 +3,12 @@
 import React from 'react';
 import InstagramIcon from './icon/InstagramIcon';
 import TwitterIcon from './icon/twitterIcon';
-import CategoryListIcon from './icon/categoryListIcon';
 import AboutMeIcon from './icon/aboutMeIcon';
+import Link from 'next/link';
 
 
 
 const Sidebar = ({ isOpen, onClose }) => {
-  const handleItemClick = () => {
-    onClose(); // サイドバーを閉じる関数を呼び出す
-  };
 
   const handleClose = () => {
     onClose(); // サイドバーを閉じる
@@ -26,20 +23,26 @@ const Sidebar = ({ isOpen, onClose }) => {
         </button>
       </div>
       <div className="bg-white h-screen w-64">
-        <AboutMeIcon />        
+        <AboutMeIcon handleClose={handleClose} />        
         <nav>
           <ul>
-            <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={handleClose}>
-              <div class="flex items-center mx-auto justify-center">
-                <p class="mr-4">Follow me:</p>
+            <li className="p-2 cursor-pointer" onClick={handleClose}>
+              <div className="flex items-center mx-auto justify-center">
+                <p className="mr-4">Follow me:</p>
                 <InstagramIcon />
                 <TwitterIcon />
               </div>
             </li>
-            <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={handleClose}>
-              <CategoryListIcon />
-            </li>
-            <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={handleClose}>Item 3</li>
+            <Link href="/CategoryList">
+              <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={handleClose}>
+                カテゴリ一覧
+              </li>
+            </Link>
+            <Link href="/AboutMe">
+              <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={handleClose}>
+                About me
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>

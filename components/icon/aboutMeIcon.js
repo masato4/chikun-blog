@@ -3,18 +3,19 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const AboutMeIcon = () => {
+const AboutMeIcon = ({ handleClose }) => {
+
   return (
     <div className="flex items-center justify-center pt-4 flex-col"> {/* flex-colを追加 */}
-      <div className="rounded-full bg-gray-800 p-2">
+      <div className="rounded-full" style={{ width: '52px', height: '52px', borderRadius: '50%', overflow: 'hidden' }} onClick={handleClose}>
         <Link href="/AboutMe">
-          <div style={{ width: '32px', height: '32px', borderRadius: '50%', overflow: 'hidden' }}>
+          <div className="hover:filter hover:brightness-110"> 
             <Image
-              src="/nextjs-welcome.png"
+              src="/favicon.png"
               alt="Icon"
-              width={32}
-              height={32}
-              layout="responsive"
+              width={52}
+              height={52}
+              layout="fixed"
             />
           </div>
         </Link>

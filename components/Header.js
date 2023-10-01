@@ -77,12 +77,18 @@ import Link from 'next/link';
 
 const Header = ({ onSidebarToggle }) => {
   return (
-    <header className="sticky top-0 border-b z-10 bg-white">
+    <header className="sticky top-0 border-b z-10 bg-white bg-opacity-90">
       <div className="max-w-4xl mx-auto flex justify-between items-center h-12">
         <Link href="/">
-          なっじブログ
+          <span className="font-bold">
+            なっじブログ
+          </span>
+          
         </Link>
-        <div className="hidden md:flex">
+        <div className="hidden md:flex space-x-4">
+          <Link href="/AboutMe">
+            About Me
+          </Link>
           <Link href="/CategoryList">
             カテゴリ一覧
           </Link>
