@@ -67,26 +67,24 @@ envファイルの設定など１からやり直すのは大労働です。な�
 #### エラー解決②
 ##### ターミナル
 ここからは自己責任...  
-ChatGptに出ているアラートを打ち込みます。するとこのコマンドを打てと回答がきました。  
-
-ターミナル
-```js[class="line-numbers"]
-$sudo chown -R $(whoami) /Applications
-```
-
+ChatGptに出ているアラートを打ち込みます。すると  
+$sudo chown -R $(whoami) /Applications  
+このコマンドを打てと回答がきました。  
 早速ターミナルで打ち込みます。ターミナルの開き方は  
 LaunchPad > 検索 > ターミナル  
-結果=>解決せず  
 
-ターミナル
 ```js[class="line-numbers"]
+//ターミナル
+$sudo chown -R $(whoami) /Applications
+
 chown: /Applications/Safari.app: Operation not permitted
 ```
-許可されていないという旨のエラーが吐かれます。そこでls -l で現状を把握します　　
 
-ターミナル
+結果=>解決せず  
+許可されていないという旨のエラーが吐かれます。そこでルートディレクトリでls -l で現状の権限を把握します　　
+
 ```js[class="line-numbers"]
-
+//ターミナル
 $ls -l
 
 drwxr-xr-x   14 root  wheel      Applications
@@ -94,9 +92,10 @@ drwx------@   7 ユーザー名  staff      Desktop
 ```
 Applicationsフォルダの管理者がrootになっています！これが原因ですね！！  
 やはり、chownで権限を変更するという方針は間違っていないようです。  
-いろいろ試したところついに  
-ターミナル
+いろいろ試したところついに！！  
+
 ```js[class="line-numbers"]
+//ターミナル
 $sudo chown ユーザー名 Applications
 
 $ls -l
@@ -104,6 +103,8 @@ $ls -l
 drwxr-xr-x   14 ユーザー名  wheel      Applications
 drwx------@   7 ユーザー名  staff      Desktop
 ```
+$sudo chown ユーザー名 Applications  
+コマンドで  
 Applicationsフォルダの管理者が現在使用しているユーザー名に変わりました！！  
 Dockに追加  
 結果=>解決！！

@@ -1,6 +1,6 @@
 export default {
   title: 'なっじブログ',
-  description: '日常生活をほのぼの綴る傍ら、地方グルメ・スポットの紹介や、商品レビューを行います',
+  description: 'Apple製品や周辺ガジェットのレビュー、またMacを使用していて困ったことなどを投稿します',
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
