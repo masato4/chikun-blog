@@ -5,7 +5,7 @@ export default {
     type: 'website',
     locale: 'ja_JP',
     url: '${process.env.NEXT_PUBLIC_BASE_URL}',
-    site_name: 'BLOG',
+    site_name: 'なっじブログ',
   },
   twitter: {
     handle: '@handle',
