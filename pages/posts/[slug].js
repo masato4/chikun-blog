@@ -39,6 +39,7 @@ export async function getStaticProps({ params }) {
     })
     .use(remarkToc,{
       heading: '目次',
+      maxDepth: 3,
     })
     .use(checkAST) //mdastにアクセス
     .use(remarkRehype)
@@ -48,10 +49,11 @@ export async function getStaticProps({ params }) {
     .use(rehypeStringify)
     .process(content);
 
-  const toc = await unified()
+  const toc = await unified()  //サイドバー
     .use(remarkParse)
     .use(GetToc, {
       heading: '目次',
+      maxDepth: 3,
       tight: true,
     })
     .use(remarkRehype)

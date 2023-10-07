@@ -66,7 +66,9 @@ const Page = ({ posts, pages, current_page }) => {
           <PostCard key={post.slug} post={post} />
         ))}
       </div>
-      <Pagination pages={pages} current_page={current_page} />
+      <div className="pagination-style">
+        <Pagination pages={pages} current_page={current_page} />
+      </div>
     </div>
   );
 };

@@ -54,7 +54,9 @@ export default function Home({ posts, pages }) {
           <PostCard key={post.slug} post={post} />
         ))}
       </div>
-      <Pagination pages={pages} />
+      <div className='pagination-style'>
+        <Pagination pages={pages} />
+      </div>
     </div>
   );
 }
