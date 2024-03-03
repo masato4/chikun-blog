@@ -8,7 +8,7 @@ const Header = ({ onSidebarToggle }) => {
       <div className="max-w-4xl mx-auto flex justify-between items-center h-12">
         <Link href="/">
           <span className="font-bold">
-            チーズとワイン★
+            ちーくんブログ
           </span>
         </Link>
         <div className="hidden md:flex space-x-4">
