@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const TwitterIcon = () => {
   return (
-    <Link href="https://twitter.com/nudge_narrative" target="_blank"
+    <Link href="https://twitter.com/chikun_bolg" target="_blank"
       rel="noopener noreferrer">
       <div className="hover:filter hover:brightness-150 rounded-full">
         <Image
