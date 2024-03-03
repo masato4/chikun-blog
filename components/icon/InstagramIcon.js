@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const InstagramIcon = () => {
   return (
-    <Link href="https://www.instagram.com/nudge_narrative_blog/" target="_blank"
+    <Link href="https://www.instagram.com/chikun_blog/" target="_blank"
       rel="noopener noreferrer">
       <div className="hover:filter hover:brightness-110 rounded-full">
         <Image
