@@ -11,7 +11,8 @@ const AboutMeIcon = ({ handleClose }) => {
         <Link href="/AboutMe">
           <div className="hover:filter hover:brightness-110"> 
             <Image
-              src="/favicon.png"
+              // src="/favicon.png"
+              src="/chikunn.png"
               alt="Icon"
               width={52}
               height={52}
