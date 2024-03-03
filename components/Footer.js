@@ -10,7 +10,7 @@ const Footer = () => {
         <TwitterIcon />
       </div>
       <div className="max-w-4xl w-full mx-auto h-12 mb-4 flex items-center justify-center">
-        <div>© cheese-and-wine-blog</div>
+        <div>© chikun-blog</div>
       </div>
     </footer>
   );
