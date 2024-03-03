@@ -9,12 +9,13 @@ const AboutMe = () => {
       <div className="flex items-center mb-6">
         <div className="mr-10">
           <h2 className="text-xl font-bold mb-2">名前</h2>
-          <p>なっじ</p>
+          <p>ちーくん</p>
         </div>
         <div>
           <div className="rounded-full" style={{ width: '64px', height: '64px', borderRadius: '50%', overflow: 'hidden' }}>
             <Image
-              src="/favicon.png"
+              // src="/favicon.png"
+              src="/chikunn.png"
               alt="Icon"
               width={64}
               height={64}
@@ -25,7 +26,7 @@ const AboutMe = () => {
       </div>
       <div className="mb-6">
         <h2 className="text-xl font-bold mb-2">プロフィール</h2>
-        <p>はじめまして!なっじと申します。2001年生まれの理系大学生です。趣味は、お酒とカラオケです。このブログではAppleやサードパーティ製品のレビューに加え、Macを使ってプログラミングをたまにするので、いろいろ紹介できたらなと思っています。ブログ初心者ですが、よろしくお願いします。</p>
+        <p>はじめまして!ちーくんと申します。2001年生まれの新社会人です。趣味は、お酒とカラオケで，最近はソムリエの資格を取ることを目標に生活しています。このブログでは私の大好きなチーズとワインの紹介に加え、実際に飲んで美味しかったウィスキーやビール等のお酒も紹介したいと考えています！よろしくお願いいたします！</p>
       </div>
       <div className="mb-6">
         <h2 className="text-xl font-bold mb-2">連絡先</h2>

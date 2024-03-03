@@ -12,12 +12,17 @@ export default function Layout({ children }) {
   };
 
   return (
-    <div className="flex flex-col min-h-screen relative"> {/* 注意：relativeを追加 */}
-      <Header onSidebarToggle={toggleSidebar} />
-      {isSidebarOpen && <div className="fixed inset-0 bg-gray-800 bg-opacity-75 z-10" onClick={toggleSidebar}></div>} {/* z-indexを下げています */}
-      <div className="flex relative flex-grow "> {/* 注意：relativeを追加 */}
-        <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} />
-        <main className="flex-1 max-w-4xl w-full mx-auto relative">{children}</main>
+    // <div className="flex flex-col min-h-screen relative">
+    <div className="flex flex-col relative"> {/* 注意：relativeを追加 */}
+      {/* <div className="min-h-screen"> */}
+      <div className="min-h-[calc(100vh-8rem)]">
+        <Header onSidebarToggle={toggleSidebar} />
+        {isSidebarOpen && <div className="fixed inset-0 bg-gray-800 bg-opacity-75 z-10" onClick={toggleSidebar}></div>} {/* z-indexを下げています */}
+        <div className="flex relative flex-grow "> {/* 注意：relativeを追加 */}
+          <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} />
+          <main className="flex-1 max-w-4xl w-full mx-auto relative">{children}</main>
+        </div>
+        {/* 他のコンポーネントや要素 */}
       </div>
       <Footer className="mt-auto" />
     </div> 

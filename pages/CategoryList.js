@@ -44,7 +44,9 @@ const renderCategories = (categories) => {
 
 const CategoryList = () => {
   return (
-    <div className="max-w-prose mx-auto p-4">
+    // <div className="max-w-prose mx-auto p-4">
+    // <div className="max-w-4xl mx-auto h-12">
+    <div className="max-w-4xl mx-auto px-2.5">
       <h1 className="text-2xl font-bold mb-4">カテゴリ一覧</h1>
       {renderCategories(categories)}
     </div>
