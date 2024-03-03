@@ -23,7 +23,7 @@ const AboutMeIcon = ({ handleClose }) => {
       </div>
       <span className="text-2xl font-bold mt-2"> {/* mt-2を追加してアイコンとの間にスペースを開ける */}
         <Link href="/AboutMe">
-          なっじ
+          ちーくん
         </Link>
       </span>
     </div>
